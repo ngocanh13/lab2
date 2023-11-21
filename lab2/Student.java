@@ -24,8 +24,9 @@ public class Student extends Person{
         System.out.println("diem thi: "+ this.diemthi);
         System.out.println("email: "+ this.email);
     }
-    public boolean hocbong(){
-        if(diemthi > 8.0){
+    double diemtb;
+    public boolean hocbong(double diemtb){
+        if(diemtb> 8.0){
             return true;
         }return false;
     }
